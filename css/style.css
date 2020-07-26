@@ -1,0 +1,232 @@
+* {   
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box; 
+}
+
+/*General*/
+body {   
+    background: rgb(59, 58, 58);   
+}
+
+h1, h2, h3, h4 {   
+    text-transform: uppercase;  
+    margin: 5% 0;   
+}
+
+a {   
+    text-decoration: none;  
+}    
+
+button {   
+    background-color: rgba(0, 0, 0, 0.61);  
+    border: rgba(0, 0, 0, 0.719) solid 0.1em;  
+    padding: 1%;  
+    margin: 5%; 
+}
+
+/*Wake*/
+.wake {   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.wake h1 {   
+    text-align: center;
+    margin: 20% 0;
+    width: 50%; 
+    order: 2;   
+}
+
+.wake div:nth-last-child(1) {   
+    order: 3;   
+}
+
+.wake div:nth-last-child(3) {   
+    width: 100%;    
+}
+
+/*Welcome*/
+.welcome {   
+    text-align: center; 
+    padding: 10%;   
+}
+
+/*About and Events*/
+.about-events {   
+    display: flex;     
+    text-align: center; 
+    padding: 5% 0;  
+}
+
+.about-events article {   
+    width: 50%; 
+}
+
+/*Instructors and News*/
+.instructors {   
+    text-align: center; 
+}
+
+.instructors img {   
+    border-radius: 50%; 
+}
+
+.instructors ul {   
+    display: flex;  
+    flex-wrap: wrap;    
+    list-style: none;   
+    justify-content: space-evenly; 
+}
+
+.instructors li {   
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+}
+
+.instructors ul figure {   
+    order: 0;   
+}
+
+.instructors ul h3 {   
+    order: 1;    
+}
+
+.instructors ul p {   
+    order: 2;   
+}
+
+/*Photos*/
+.photos {   
+    text-align: center; 
+}
+
+.photos figure {   
+    display: flex;  
+    flex-wrap: wrap;   
+}
+
+.photos img {   
+    width: 25%; 
+}
+
+/*News*/
+.news {   
+    text-align: center; 
+}
+
+.news ul {   
+    display: flex;  
+    list-style: none;   
+    justify-content: space-evenly; 
+}
+
+.news li {   
+    width: 30%; 
+}
+
+/*Footer*/
+.main-footer {   
+    padding: 5%;    
+    text-align: center; 
+}
+
+.address {   
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%; 
+}
+
+.address figure {   
+    width: 50%; 
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+/*Wake*/
+.wake h1 {   
+    width: 25%; 
+    margin: 10%;    
+}
+
+/*Footer*/
+.address {   
+    width: 25%; 
+}}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) and (max-width: 1920px) {
+/*Wake*/
+.wake h1 {   
+    width: 15%; 
+    margin: 10% 0;   
+}
+
+/*Welcome*/
+.welcome {   
+    padding: 5%;    
+}    
+
+/*Footer*/
+.address {   
+    width: 15%; 
+}}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+section {   
+    border: black solid 1px;    
+    padding: 0.5%;  
+}
+
+article {   
+    border: purple solid 1px;   
+    padding: 0.5%;  
+}
+
+div {   
+    border: red solid 1px;  
+    padding: 0.5%;  
+}
+
+header {   
+    border: blue solid 1px; 
+    padding: 0.5%;  
+}
+
+p {   
+    border: orange solid 1px;   
+    padding: 0.5%;  
+}
+
+figure {   
+    border: green solid 1px;    
+    padding: 0.5%;  
+}
+
+img {   
+    border: grey solid 1px; 
+    padding: 0.5%;  
+}
+
+h1, h2, h3, h4 {   
+    border: white solid 1px;    
+    padding: 0.5%;  
+}
+
+footer {   
+    border: turquoise solid 1px;    
+    padding: 0.5%;  
+}
+
+a {   
+    border: violet solid 1px;   
+}

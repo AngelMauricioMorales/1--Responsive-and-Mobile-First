@@ -28,9 +28,16 @@ button {
 
 /*Wake*/
 .wake {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;    
 }
 
@@ -38,10 +45,14 @@ button {
     text-align: center;
     margin: 20% 0;
     width: 50%; 
+    -webkit-box-ordinal-group: 3; 
+    -ms-flex-order: 2; 
     order: 2;   
 }
 
 .wake div:nth-last-child(1) {   
+    -webkit-box-ordinal-group: 4;   
+    -ms-flex-order: 3;   
     order: 3;   
 }
 
@@ -57,6 +68,8 @@ button {
 
 /*About and Events*/
 .about-events {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;     
     text-align: center; 
     padding: 5% 0;  
@@ -76,27 +89,43 @@ button {
 }
 
 .instructors ul {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;  
+    -ms-flex-wrap: wrap;  
     flex-wrap: wrap;    
     list-style: none;   
+    -webkit-box-pack: space-evenly;   
+    -ms-flex-pack: space-evenly;   
     justify-content: space-evenly; 
 }
 
 .instructors li {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 30%; 
 }
 
 .instructors ul figure {   
+    -webkit-box-ordinal-group: 1;   
+    -ms-flex-order: 0;   
     order: 0;   
 }
 
 .instructors ul h3 {   
+    -webkit-box-ordinal-group: 2;   
+    -ms-flex-order: 1;   
     order: 1;    
 }
 
 .instructors ul p {   
+    -webkit-box-ordinal-group: 3;   
+    -ms-flex-order: 2;   
     order: 2;   
 }
 
@@ -106,7 +135,10 @@ button {
 }
 
 .photos figure {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;  
+    -ms-flex-wrap: wrap;  
     flex-wrap: wrap;   
 }
 
@@ -120,8 +152,12 @@ button {
 }
 
 .news ul {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;  
     list-style: none;   
+    -webkit-box-pack: space-evenly;   
+    -ms-flex-pack: space-evenly;   
     justify-content: space-evenly; 
 }
 
@@ -136,7 +172,10 @@ button {
 }
 
 .address {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 50%; 
 }

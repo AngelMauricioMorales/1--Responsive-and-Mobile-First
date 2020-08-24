@@ -168,7 +168,7 @@ button {
 /*Footer*/
 .main-footer {   
     padding: 5%;    
-    text-align: center; 
+    text-align: center;
 }
 
 .address {   
@@ -178,10 +178,13 @@ button {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 50%; 
+    justify-content: center;
 }
 
-.address figure {   
-    width: 50%; 
+.main-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/

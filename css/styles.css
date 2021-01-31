@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1%;
+    width: 50%;
+}
+
+/*Header (Wake Boarding)*/
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../assets/header-image.jpg") center/cover no-repeat;
+}
+
+.main-header__menu-button {
+    width: 100%;
+}
+
+.main-header__title {
+    order: 2;
+    width: 50%;
+    text-align: center;
+    margin: 15% 0;
+}
+
+.main-header__left-arrow {
+    order: 1;
+    padding: 1%;
+    text-align: right;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.main-header__right-arrow {
+    order: 3;
+    padding: 1%;
+    text-align: right;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/*First Section (Welcome)*/
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url("../assets/welcome-image.webp") center/cover no-repeat;
+}
+
+/*Second Section (About and Events)*/
+.about-events-section {
+    text-align: center;
+}
+
+.about-events__article {
+    padding: 5% 0;
+}
+
+.about-background{
+    background: url("../assets/about-image.jpg") center/cover no-repeat;
+}
+
+.events-backgorund {
+    background: url("../assets/events-image.jpg") center/cover no-repeat;
+}
+
+/*Third Section (Instructors)*/
+.instructors-section {
+    background: url("../assets/instructors-background.jpg") center/cover no-repeat;
+    text-align: center;
+    padding: 10%;
+}
+
+.instructors-section__itemlist {
+    list-style: none;
+}
+
+.instructors-section__photo {
+    border-radius: 5%;
+}
+
+.subtitle-red{
+    color: red;
+}
+
+.subtitle-blue {
+    color: blue;
+}
+
+.subtitle-green {
+    color: green;
+}

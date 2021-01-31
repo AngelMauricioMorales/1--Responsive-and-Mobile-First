@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
+    text-align: center;
     color: white;
 }
 
-a {
-    text-decoration: none;
+body {
+    background-color: rgb(37, 37, 37);
 }
 
 h2 {
@@ -16,7 +17,6 @@ button {
     padding: 1%;
     width: 50%;
 }
-
 /*Header (Wake Boarding)*/
 .main-header {
     display: flex;
@@ -28,12 +28,12 @@ button {
 
 .main-header__menu-button {
     width: 100%;
+    text-align: start;
 }
 
 .main-header__title {
     order: 2;
     width: 50%;
-    text-align: center;
     margin: 15% 0;
 }
 
@@ -57,36 +57,32 @@ button {
 .welcome-section {
     display: flex;
     flex-direction: column;
-    text-align: center;
     background: url("../assets/welcome-image.webp") center/cover no-repeat;
+    padding: 5%;
 }
 
 /*Second Section (About and Events)*/
-.about-events-section {
-    text-align: center;
-}
-
 .about-events__article {
     padding: 5% 0;
 }
 
 .about-background{
-    background: url("../assets/about-image.jpg") center/cover no-repeat;
+    background: url("../assets/about-background.jpg") center/cover no-repeat;
 }
 
 .events-backgorund {
-    background: url("../assets/events-image.jpg") center/cover no-repeat;
+    background: url("../assets/events-background.jpg") center/cover no-repeat;
 }
 
 /*Third Section (Instructors)*/
 .instructors-section {
-    background: url("../assets/instructors-background.jpg") center/cover no-repeat;
-    text-align: center;
-    padding: 10%;
+    background: url("../assets/instructors-background.jpg") 0/100% 100% no-repeat;
+    padding: 5%;
 }
 
-.instructors-section__itemlist {
+.instructors-section__list {
     list-style: none;
+    padding-right: 10%;
 }
 
 .instructors-section__photo {
@@ -103,4 +99,62 @@ button {
 
 .subtitle-green {
     color: green;
+}
+
+/*Fourth Section (Photos)*/
+.photos-section {
+    padding: 5% 0;
+}
+
+.photos-section__imgs-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-section__images {
+    width: 25%;
+    height: 10vh;
+}
+
+/*Fifth Section (News)*/
+.news-section {
+    background: url("../assets/news-background.jpg") 0/100% 100% no-repeat;
+    padding: 5%;
+}
+
+.news-section__list {
+    list-style: none;
+    padding-right: 10%;
+}
+
+.news-section__items-title {
+    border-radius: 5%;
+    width: 25%;
+    margin: auto;
+    padding: 0;
+}
+
+.item-title-ruby {
+    background-color: rgb(165, 42, 73);
+}
+
+.item-title-orange {
+    background-color: rgb(165, 122, 42);
+}
+
+.item-title-blue {
+    background-color: rgb(100, 149, 237);
+}
+
+/*Footer*/
+.footer__address-container {
+    background: url("../assets/footer-background.jpg") 0/cover no-repeat;
+    padding: 5%;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
 }

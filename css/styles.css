@@ -49,9 +49,10 @@ button:hover {
 .main-header__title {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
+  text-align: center;
   order: 2;
   width: 50%;
-  margin: 15% 0;
+  margin: 5% 0;
 }
 
 .header-arrow-background {
@@ -99,7 +100,7 @@ button:hover {
   background: url("../assets/about-background.jpg") center/cover no-repeat;
 }
 
-.events-backgorund {
+.events-background {
   background: url("../assets/events-background.jpg") center/cover no-repeat;
 }
 
